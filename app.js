@@ -82,7 +82,6 @@ window.addEventListener('DOMContentLoaded', () => {
   displayMenuButtons();
 });
 
-
 function displayMenuItems(menuItems) {
   let displayMenu = menuItems.map(item => {
     return `<article class="menu-item">
